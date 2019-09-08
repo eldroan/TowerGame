@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f0c87d8-6c82-483c-9c7d-8808ea2df099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/Axelsinfondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/Axelsinfondo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/brunosinfondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/brunosinfondo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/fechesinfondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/fechesinfondo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/leasinfondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/leasinfondo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/matosinfondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials &amp; Sprites/matosinfondo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_crystal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_crystal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_crystalLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_crystalLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_dirt.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_dirt.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_dirtLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_dirtLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_rocks.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_rocks.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_rocksLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_rocksLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_tree.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_tree.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_treeLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/detail_treeLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoGreen.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoGreen.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoGreenWeapon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoGreenWeapon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoPurple.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoPurple.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoPurpleWeapon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoPurpleWeapon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoRed.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoRed.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoRedWeapon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoRedWeapon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoYellow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoYellow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoYellowWeapon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/enemy_ufoYellowWeapon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_crystal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_crystal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_crystalLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_crystalLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_dirt.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_dirt.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_dirtLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_dirtLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_rocks.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_rocks.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_rocksLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_rocksLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_tree.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_tree.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_treeLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_detail_treeLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_bump.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_bump.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerInner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerInner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerOuter.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerOuter.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerSquare.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_cornerSquare.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_crossing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_crossing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_crystal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_crystal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_end.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_end.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endRoundSpawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endRoundSpawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endSpawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_endSpawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_hill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_hill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverBridge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverBridge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverCorner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverCorner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverFall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverFall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverSlope.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverSlope.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverSlopeLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverSlopeLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverStraight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverStraight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverTransition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_riverTransition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_rock.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_rock.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_slope.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_slope.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_spawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_spawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_spawnRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_spawnRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_split.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_split.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straightHill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straightHill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straightHillLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_straightHillLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_transition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_transition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_tree.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_tree.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_treeDouble.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_treeDouble.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_treeQuad.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_treeQuad.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideCorner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideCorner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideSplit.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideSplit.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideStraight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideStraight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideTransition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_tile_wideTransition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_woodStructure.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_woodStructure.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_woodStructure_high.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/snow_woodStructure_high.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_bump.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_bump.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerInner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerInner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerOuter.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerOuter.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerSquare.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_cornerSquare.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_crossing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_crossing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_crystal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_crystal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_dirt.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_dirt.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_dirtHigh.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_dirtHigh.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_end.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_end.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endRoundSpawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endRoundSpawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endSpawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_endSpawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_hill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_hill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverBridge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverBridge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverCorner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverCorner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverFall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverFall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverSlope.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverSlope.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverSlopeLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverSlopeLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverStraight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverStraight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverTransition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_riverTransition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_rock.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_rock.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_slope.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_slope.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_spawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_spawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_spawnRound.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_spawnRound.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_split.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_split.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straightHill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straightHill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straightHillLarge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_straightHillLarge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_transition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_transition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_tree.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_tree.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_treeDouble.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_treeDouble.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_treeQuad.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_treeQuad.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideCorner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideCorner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideSplit.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideSplit.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideStraight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideStraight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideTransition.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/tile_wideTransition.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_base.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_base.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_bottomC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_crystals.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_crystals.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_middleC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_roofC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleD.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleD.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleE.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleE.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleF.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_sampleF.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerRound_topC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_bottomC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_middleC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_roofC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleD.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleD.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleE.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleE.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleF.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_sampleF.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topA.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topA.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topB.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topB.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topC.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/towerSquare_topC.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_ballista.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_ballista.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_blaster.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_blaster.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_cannon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_cannon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_catapult.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/weapon_catapult.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/woodStructure.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/woodStructure.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/woodStructure_high.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/FBX format/woodStructure_high.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Castle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Castle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Floor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Floor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TurretSpot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TurretSpot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TouchController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TouchController.cs.meta" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7B9DEAD9-ECA5-4A08-82B9-9C1E553FB9BE/07/c5cf3053/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7B9DEAD9-ECA5-4A08-82B9-9C1E553FB9BE/79/ee990774/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/AudioManager.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchController.cs.meta" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea/.idea.TowerGame/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QYg49ZxAsuo3OAZNJiyqpP6t1n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f0c87d8-6c82-483c-9c7d-8808ea2df099" name="Default Changelist" comment="" />
+      <created>1567952749951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567952749951</updated>
+      <workItem from="1567952754989" duration="387000" />
+      <workItem from="1567974600020" duration="8000" />
+      <workItem from="1567974628782" duration="1094000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="177" key="#Notifications" />
+    <state x="440" y="177" key="#Notifications/3360.2100" />
+    <state x="586" y="240" key="RollbackChangesDialog" />
+    <state x="586" y="240" key="RollbackChangesDialog/3360.2100" />
+    <state x="333" y="161" key="SettingsEditor" />
+    <state x="333" y="161" key="SettingsEditor/3360.2100" />
+    <state x="687" y="263" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" />
+    <state x="687" y="263" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/3360.2100" />
+    <state x="503" y="236" width="672" height="678" key="search.everywhere.popup" />
+    <state x="503" y="236" width="672" height="678" key="search.everywhere.popup/3360.2100" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
