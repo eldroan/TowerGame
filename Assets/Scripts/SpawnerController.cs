@@ -7,30 +7,48 @@ using UnityEngine.Assertions;
 public class SpawnerController : MonoBehaviour
 {
     [SerializeField] private int maxEnemies;
+    [SerializeField] private int currentEnemies;
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private float spawnRate;
     private float _timeToNextSpawn;
     private Vector3 _spawnPosition;
-    private int _currentEnemies;
 
     private void Awake()
     {
         //Assert.IsNotNull(enemyPrefab);
         _spawnPosition = this.transform.position;
         _timeToNextSpawn = spawnRate;
+
+        EnemyController.HitCastle += EnemyDied;
+        EnemyController.EnemyDied += EnemyDied;
     }
 
     void Update()
     {
-        if (_timeToNextSpawn < 0 && _currentEnemies < maxEnemies)
+        if (_timeToNextSpawn < 0 && currentEnemies < maxEnemies)
         {
             _timeToNextSpawn = spawnRate;
             var newEnemy = Instantiate(enemyPrefab, _spawnPosition, Quaternion.identity,this.transform);
-            _currentEnemies++;
+            currentEnemies++;
         }
         else
         {
             _timeToNextSpawn -= Time.deltaTime;
         }
+    }
+
+    private void OnDestroy()
+    {
+        EnemyController.HitCastle -= EnemyDied;
+        EnemyController.EnemyDied -= EnemyDied;
+    }
+
+    private void EnemyDied(float f)
+    {
+        currentEnemies--;
+    }
+    private void EnemyDied()
+    {
+        currentEnemies--;
     }
 }
