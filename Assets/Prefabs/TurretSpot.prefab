@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2999690201075233268}
   - component: {fileID: 6123220831007935426}
   - component: {fileID: 560282040487638843}
-  m_Layer: 0
+  - component: {fileID: 7876913340780199292}
+  m_Layer: 8
   m_Name: TurretSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7876913340780199292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2304245971407193063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.19999999, z: 0.99999994}
+  m_Center: {x: 0, y: 0.099999994, z: 0}
 --- !u!1001 &6618496116255225404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90,6 +104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: woodStructure
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c78c6b0634d14ca40aaf6c7492e7b202,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c78c6b0634d14ca40aaf6c7492e7b202,
         type: 3}
