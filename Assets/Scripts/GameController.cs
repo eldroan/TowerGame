@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private GameObject healthBarGameObject;
     [SerializeField] private GameObject selectedSpotWaypoint;
+    [SerializeField] private GameObject turretShop;
     private Camera _mainCamera;
     private Transform _selectedSpot;
 
@@ -23,6 +24,7 @@ public class GameController : MonoBehaviour
         EnemyController.HitCastle += HandleHit;
         _mainCamera = Camera.main;
         _selectedSpot = null;
+        turretShop.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -43,9 +45,11 @@ public class GameController : MonoBehaviour
                 selectedSpotWaypoint.SetActive(true);
                 selectedSpotWaypoint.transform.parent = _selectedSpot;
                 selectedSpotWaypoint.transform.localPosition = Vector3.zero;
+                turretShop.SetActive(true);
             }
             else
             {
+                turretShop.SetActive(false);
                 selectedSpotWaypoint.SetActive(false);
                 _selectedSpot = null;
             }
