@@ -495,12 +495,18 @@ MonoBehaviour:
   turretShop: {fileID: 63195371}
   turrets:
   - gemPrice: 5
+    damage: 0
+    fireRate: 0
     turretPrefab: {fileID: 1248109057721516946, guid: aeb9e827a96f64a09b65bbf1b6ffda06,
       type: 3}
   - gemPrice: 10
+    damage: 0
+    fireRate: 0
     turretPrefab: {fileID: 3267450152398188670, guid: 709f679b3bd0c4ab8ba4ac890ab85367,
       type: 3}
   - gemPrice: 15
+    damage: 0
+    fireRate: 0
     turretPrefab: {fileID: 7947981267071617950, guid: c960c7bf6145247ce89e471d47b150c4,
       type: 3}
   pointWhereSpawningTurretsShouldLookTo: {fileID: 332986661}
@@ -2020,6 +2026,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504475617, guid: d8c27cb1e2e4141c29e3ff3210e72c63, type: 3}
+      propertyPath: m_Size.x
+      value: 1.62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c27cb1e2e4141c29e3ff3210e72c63, type: 3}
