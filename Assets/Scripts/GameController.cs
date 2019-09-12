@@ -35,9 +35,8 @@ public class GameController : MonoBehaviour
             // Does the ray intersect any objects excluding the player layer
             Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, layerMask))
+            if (Physics.Raycast(ray, out hit,Mathf.Infinity, layerMask))
             {
-//                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
                 Debug.Log($"Did Hit{hit.transform.gameObject.name}");
                 _selectedSpot = hit.transform;
                 
