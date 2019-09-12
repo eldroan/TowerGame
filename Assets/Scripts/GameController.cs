@@ -19,6 +19,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject selectedSpotWaypoint;
     [SerializeField] private GameObject turretShop;
     [SerializeField] private List<TurretItems> turrets;
+    [SerializeField] private Transform pointWhereSpawningTurretsShouldLookTo; //Nombrecito eh
+
     private Camera _mainCamera;
     private int _selectedSpot;
     private Dictionary<int, TurretSpot> _turretSpots;
@@ -108,6 +110,7 @@ public class GameController : MonoBehaviour
                 gems -= desiredTurret.gemPrice;
                 var newTurret = Instantiate(desiredTurret.turretPrefab, turretSpot.turretSpotTransform.position, Quaternion.identity,
                     turretSpot.turretSpotTransform);
+                newTurret.transform.LookAt(pointWhereSpawningTurretsShouldLookTo);
                 turretSpot.containsTurret = true;
                 selectedSpotWaypoint.SetActive(false); //Saco el waypoint para que no se vea
                 turretShop.SetActive(false); //cierro el shop
