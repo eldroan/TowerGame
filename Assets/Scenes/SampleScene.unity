@@ -263,6 +263,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4499446054239914011, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4499446054239914010, guid: 55ac7e133e73547eb97ff18afd406490,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -317,6 +322,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499446054258566795, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571185074449116960, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206689772225742653, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571185074677835396, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571185073367553448, guid: 55ac7e133e73547eb97ff18afd406490,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55ac7e133e73547eb97ff18afd406490, type: 3}
@@ -439,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273429737}
   - component: {fileID: 273429736}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GameController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,10 +489,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingCastleLife: 100
-  gems: 0
+  gems: 10
   healthBarGameObject: {fileID: 1479784972}
   selectedSpotWaypoint: {fileID: 1233047907}
   turretShop: {fileID: 63195371}
+  turrets:
+  - gemPrice: 5
+    turretPrefab: {fileID: 1248109057721516946, guid: aeb9e827a96f64a09b65bbf1b6ffda06,
+      type: 3}
+  - gemPrice: 10
+    turretPrefab: {fileID: 3267450152398188670, guid: 709f679b3bd0c4ab8ba4ac890ab85367,
+      type: 3}
+  - gemPrice: 15
+    turretPrefab: {fileID: 7947981267071617950, guid: c960c7bf6145247ce89e471d47b150c4,
+      type: 3}
 --- !u!4 &273429737
 Transform:
   m_ObjectHideFlags: 0
@@ -687,7 +727,7 @@ GameObject:
   - component: {fileID: 879782785}
   - component: {fileID: 879782784}
   m_Layer: 5
-  m_Name: Turret2
+  m_Name: Turret1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -754,7 +794,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 879782785}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 273429736}
+        m_MethodName: TryToPurchaseTurret
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &879782785
@@ -1100,7 +1151,7 @@ GameObject:
   - component: {fileID: 1245775394}
   - component: {fileID: 1245775393}
   m_Layer: 5
-  m_Name: Turret1
+  m_Name: Turret0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1167,7 +1218,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1245775394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 273429736}
+        m_MethodName: TryToPurchaseTurret
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1245775394
@@ -1219,11 +1281,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TurretSpot (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2304245971407193063, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2999690201075233268, guid: c0eb6ff18c80f4d868c074d159468060,
         type: 3}
@@ -1279,11 +1336,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2952235109089980213, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0eb6ff18c80f4d868c074d159468060, type: 3}
@@ -1428,41 +1480,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479784972}
   m_CullTransparentMesh: 0
---- !u!1 &1504475616 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6271913049398346547, guid: d8c27cb1e2e4141c29e3ff3210e72c63,
-    type: 3}
-  m_PrefabInstance: {fileID: 5529315576180231579}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1504475617
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504475616}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 3, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1504475619
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504475616}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1558062224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,11 +1582,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretSpot (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2304245971407193063, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 2999690201075233268, guid: c0eb6ff18c80f4d868c074d159468060,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1625,27 +1637,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 560282040487638843, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 560282040487638843, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 560282040487638843, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -6126091556477775235, guid: 56d3e06b3f8a97d4cb8053cdae8b5466,
-        type: 3}
-    - target: {fileID: 2952235109089980213, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0eb6ff18c80f4d868c074d159468060, type: 3}
 --- !u!1 &1803744163
@@ -1661,7 +1652,7 @@ GameObject:
   - component: {fileID: 1803744166}
   - component: {fileID: 1803744165}
   m_Layer: 5
-  m_Name: Turret3
+  m_Name: Turret2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1728,7 +1719,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1803744166}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 273429736}
+        m_MethodName: TryToPurchaseTurret
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1803744166
@@ -1957,16 +1959,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle
       objectReference: {fileID: 0}
-    - target: {fileID: 6271913049398346547, guid: d8c27cb1e2e4141c29e3ff3210e72c63,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6271913049398346547, guid: d8c27cb1e2e4141c29e3ff3210e72c63,
-        type: 3}
-      propertyPath: m_TagString
-      value: Castle
-      objectReference: {fileID: 0}
     - target: {fileID: 6765773309956244443, guid: d8c27cb1e2e4141c29e3ff3210e72c63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2036,16 +2028,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretSpot
       objectReference: {fileID: 0}
-    - target: {fileID: 2304245971407193063, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2304245971407193063, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2999690201075233268, guid: c0eb6ff18c80f4d868c074d159468060,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2100,16 +2082,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 560282040487638843, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2952235109089980213, guid: c0eb6ff18c80f4d868c074d159468060,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0eb6ff18c80f4d868c074d159468060, type: 3}
