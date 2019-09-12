@@ -109,8 +109,8 @@ public class GameController : MonoBehaviour
             {
                 gems -= desiredTurret.gemPrice;
                 var newTurret = Instantiate(desiredTurret.turretPrefab, turretSpot.turretSpotTransform.position, Quaternion.identity,
-                    turretSpot.turretSpotTransform);
-                newTurret.transform.LookAt(pointWhereSpawningTurretsShouldLookTo);
+                    turretSpot.turretSpotTransform).GetComponent<TurretController>();
+                newTurret.Initialize(desiredTurret.damage,desiredTurret.fireRate,pointWhereSpawningTurretsShouldLookTo);
                 turretSpot.containsTurret = true;
                 selectedSpotWaypoint.SetActive(false); //Saco el waypoint para que no se vea
                 turretShop.SetActive(false); //cierro el shop
@@ -129,6 +129,8 @@ public class GameController : MonoBehaviour
 public class TurretItems
 {
     public int gemPrice;
+    public float damage;
+    public float fireRate;
     public GameObject turretPrefab;
 }
 
