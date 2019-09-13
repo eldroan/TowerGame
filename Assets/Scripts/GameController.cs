@@ -110,7 +110,13 @@ public class GameController : MonoBehaviour
                 gems -= desiredTurret.gemPrice;
                 var newTurret = Instantiate(desiredTurret.turretPrefab, turretSpot.turretSpotTransform.position, Quaternion.identity,
                     turretSpot.turretSpotTransform).GetComponent<TurretController>();
-                newTurret.Initialize(desiredTurret.damage,desiredTurret.fireRate,pointWhereSpawningTurretsShouldLookTo);
+
+                newTurret.Initialize(
+                    desiredTurret.damage,
+                    desiredTurret.fireRate,
+                    pointWhereSpawningTurretsShouldLookTo,
+                    desiredTurret.bulletPrefab);
+                
                 turretSpot.containsTurret = true;
                 selectedSpotWaypoint.SetActive(false); //Saco el waypoint para que no se vea
                 turretShop.SetActive(false); //cierro el shop
@@ -125,6 +131,8 @@ public class GameController : MonoBehaviour
     }
 }
 
+//Aca deberia haber hecho otros archivos para meter esto pero como solo los usa esto no esta TAAAN mal
+
 [Serializable]
 public class TurretItems
 {
@@ -132,6 +140,7 @@ public class TurretItems
     public float damage;
     public float fireRate;
     public GameObject turretPrefab;
+    public GameObject bulletPrefab;
 }
 
 [Serializable]
