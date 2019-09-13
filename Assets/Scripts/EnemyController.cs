@@ -12,7 +12,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     
     public static Action<float> HitCastle = delegate(float f) {  };
-    public static Action EnemyDied = delegate { };
+    public static Action<int> EnemyDied = delegate { };
 
     // Update is called once per frame
 
@@ -21,29 +21,35 @@ public class EnemyController : MonoBehaviour
         _currentLife = maxLife;
     }
 
-    void Update()
+    private void Update()
     {
         this.transform.Translate(Time.deltaTime * speed * Vector3.left);
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Bullet"))
+        {
+            var bulletGo = other.gameObject;
+            var inflictedDamage = bulletGo.GetComponent<Bullet>().Damage;
+            _currentLife -= inflictedDamage;
+            
+            Destroy(bulletGo); //Esto estaria bueno reutilizar con un sistema de pooling porque instanciar y destruir es malisimo para la performance
+
+            if (_currentLife <= 0)
+            {
+                EnemyDied(this.transform.GetInstanceID());
+                Destroy(this.gameObject);
+                return;
+            }
+        }
+        
         if (other.CompareTag("Castle"))
         {
             Debug.Log("Auch, estaba re duro ese castillo");
             HitCastle(damage);
             
-            //Me destruyo (aunque me deberia poolear para mejorar performance)
             Destroy(this.gameObject);
-        }
-
-        if (other.CompareTag("Bullet"))
-        {
-            var inflictedDamage = other.gameObject.GetComponent<Bullet>().damage;
-            _currentLife -= inflictedDamage;
-
-            if (_currentLife <= 0)
-                EnemyDied();
         }
     }
 }
