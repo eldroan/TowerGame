@@ -32,9 +32,15 @@ public class GameController : MonoBehaviour
         Assert.AreNotEqual(0f, startingCastleLife, "La vida no puede ser 0");
         _currentLife = startingCastleLife;
         EnemyController.HitCastle += HandleHit;
+        EnemyController.EnemyDied += EnemyDied;
         _mainCamera = Camera.main;
         _selectedSpot = -1;
         turretShop.SetActive(false);
+    }
+
+    private void EnemyDied(int obj)
+    {
+        gems+=10; //Le sumo 10 gemas por kill
     }
 
     private void Update()

@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingCastleLife: 100
-  gems: 100
+  gems: 10
   healthBarGameObject: {fileID: 1479784972}
   selectedSpotWaypoint: {fileID: 1233047907}
   turretShop: {fileID: 63195371}
