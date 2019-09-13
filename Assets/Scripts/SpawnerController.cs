@@ -19,7 +19,7 @@ public class SpawnerController : MonoBehaviour
         _spawnPosition = this.transform.position;
         _timeToNextSpawn = spawnRate;
 
-        EnemyController.HitCastle += EnemyDied;
+        EnemyController.HitCastle += HitCastle;
         EnemyController.EnemyDied += EnemyDied;
     }
 
@@ -39,15 +39,15 @@ public class SpawnerController : MonoBehaviour
 
     private void OnDestroy()
     {
-        EnemyController.HitCastle -= EnemyDied;
+        EnemyController.HitCastle -= HitCastle;
         EnemyController.EnemyDied -= EnemyDied;
     }
 
-    private void EnemyDied(float f)
+    private void HitCastle(float f)
     {
         currentEnemies--;
     }
-    private void EnemyDied()
+    private void EnemyDied(int guid)
     {
         currentEnemies--;
     }
