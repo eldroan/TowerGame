@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float damage;
     [SerializeField] private float maxLife;
+    [SerializeField] private bool forCinematic = false;
     private float _currentLife;
     // Start is called before the first frame update
     
@@ -46,8 +47,11 @@ public class EnemyController : MonoBehaviour
         
         if (other.CompareTag("Castle"))
         {
-            Debug.Log("Auch, estaba re duro ese castillo");
-            HitCastle(damage);
+            if(forCinematic == false)
+            {
+                Debug.Log("Auch, estaba re duro ese castillo");
+                HitCastle(damage);
+            }
             
             Destroy(this.gameObject);
         }
