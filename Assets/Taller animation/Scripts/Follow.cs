@@ -15,6 +15,8 @@ public class Follow : MonoBehaviour
     void Update()
     {
         if(target != null)
-            this.transform.position = target.transform.position + new Vector3(-2.1f, 1.3f, -1.3f);
+        {
+            this.transform.position = target.transform.position + new Vector3(-0.52f, 1.06202f, -1.611094f);
+        }
     }
 }
